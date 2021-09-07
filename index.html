@@ -8,14 +8,16 @@
     <title>Background Color Switcher</title>
   </head>
   <body>
-    <div class="dropdown">
-      <button class="dropbtn">Dropdown</button>
+    <label for="cars">Choose Background Color:</label>
 
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div>
+    <select onchange="changeBgColor(this.value)">
+      <option></option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="orange">Orange</option>
+      <option value="green">Green</option>
+      <option value="pink">Pink</option>
+    </select>
+    <script src="main.js"></script>
   </body>
 </html>
